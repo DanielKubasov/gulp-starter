@@ -1,0 +1,28 @@
+/* Global variables */
+
+// BREAKPOINTS
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+:root {
+	--clr-accent: 33 33 33;
+	--clr-background: 255 255 255;
+
+	--font-family-accent: "Kaushan Script", sans-serif;
+	--font-family-basic: "Inter Tight", sans-serif;
+	--font-size: 16px;
+	--line-height: 1.65;
+
+	--z-index-1: 1;
+	--z-index-2: 2;
+	--z-index-3: 3;
+	--z-index-4: 4;
+	--z-index-5: 5;
+
+	--container-width: 100%;
+	--container-offset: min(50px, 10vw);
+}

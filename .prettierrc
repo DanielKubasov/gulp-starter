@@ -1,0 +1,18 @@
+{
+	"tabWidth": 4,
+	"bracketSameLine": true,
+	"BracketSpacing": true,
+	"semi": true,
+	"Semicolons": true,
+	"printWidth": 80,
+	"overrides": [
+		{
+			"files": "*.svg",
+			"options": {
+				"parser": "html",
+				"semi": true,
+				"singleAttributePerLine": true
+			}
+		}
+	]
+}

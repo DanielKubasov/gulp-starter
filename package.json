@@ -1,0 +1,35 @@
+{
+	"name": "gulp",
+	"version": "1.0.0",
+	"description": "Simple gulp starter template to develop website templates for CMS wordpress",
+	"main": "gulpfile.js",
+	"type": "module",
+	"scripts": {
+		"start": "gulp",
+		"w3c": "node-w3c-validator -f lint -evH -i src/**/*.html"
+	},
+	"keywords": [],
+	"author": "Daniel Kubasov",
+	"license": "ISC",
+	"dependencies": {
+		"browser-sync": "^3.0.2",
+		"gsap": "^3.12.4",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^9.0.0",
+		"gulp-clean": "^0.4.0",
+		"gulp-file-include": "^2.3.0",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-imagemin": "^9.0.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-sass-glob": "^1.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-svg-sprite": "^2.0.3",
+		"gulp-svgmin": "^4.1.0",
+		"gulp-typograf": "^4.1.0",
+		"node-w3c-validator": "^2.0.2",
+		"sass": "^1.69.7",
+		"typograf": "^7.3.0",
+		"webpack-stream": "^7.0.0"
+	}
+}

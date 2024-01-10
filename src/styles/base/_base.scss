@@ -1,0 +1,38 @@
+/* Basic styles of the project */
+
+.page,
+.page__body {
+	min-height: 100vh;
+}
+
+.page__body {
+	position: relative;
+
+	display: grid;
+
+	min-width: 320px;
+
+	grid-template-rows: min-content 1fr min-content;
+
+	font-family: var(--font-family-basic);
+	font-size: var(--font-size);
+	line-height: var(--line-height);
+
+	color: rgb(var(--clr-accent));
+	background-color: rgb(var(--clr-background));
+
+	overflow-x: hidden;
+
+	&._locked {
+		overflow: hidden;
+	}
+}
+
+.page__header {
+}
+
+.page__main {
+}
+
+.page__footer {
+}

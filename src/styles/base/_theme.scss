@@ -1,0 +1,9 @@
+/* Light color scheme */
+@media (prefers-color-scheme: light) {
+    @include light-scheme;
+}
+
+/* Dark color scheme */
+@media (prefers-color-scheme: dark) {
+    @include dark-scheme;
+}

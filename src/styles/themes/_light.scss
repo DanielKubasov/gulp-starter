@@ -1,0 +1,6 @@
+@mixin light-scheme {
+	:root {
+		--clr-primary: 51 51 51;
+		--clr-secondary: 255 255 255;
+	}
+}

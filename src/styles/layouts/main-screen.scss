@@ -1,0 +1,20 @@
+// MAIN SCREEN LAYOUT
+
+.main-screen {
+	display: grid;
+
+	min-height: 100%;
+
+	place-items: center;
+	text-align: center;
+
+	&__title {
+		font-size: 4rem;
+	}
+
+	&__subtitle {
+		font-size: 1rem;
+
+		margin-bottom: 25px;
+	}
+}

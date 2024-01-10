@@ -1,0 +1,28 @@
+// LOGOTYPE
+
+.logotype {
+	position: relative;
+	width: fit-content;
+	font-family: var(--font-family-accent);
+	font-size: 96px;
+	line-height: 1;
+
+	// DIFFERENCE EFFECT
+	&::before {
+		content: "";
+		position: absolute;
+
+		left: 0;
+		top: 50%;
+
+		transform: translate(0, -50%);
+
+		width: 60%;
+		aspect-ratio: 1;
+
+		border-radius: 100%;
+
+		mix-blend-mode: difference;
+		background-color: #fff;
+	}
+}

@@ -1,0 +1,6 @@
+@mixin dark-scheme {
+	:root {
+		--clr-primary: 255 255 255;
+		--clr-secondary: 51 51 51;
+	}
+}

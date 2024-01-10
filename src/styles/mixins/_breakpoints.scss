@@ -1,0 +1,35 @@
+@mixin xs {
+	@media (width <= $sm) {
+		@content;
+	}
+}
+
+@mixin sm {
+	@media (width >= $sm) {
+		@content;
+	}
+}
+
+@mixin md {
+	@media (width >= $md) {
+		@content;
+	}
+}
+
+@mixin lg {
+	@media (width >= $lg) {
+		@content;
+	}
+}
+
+@mixin xl {
+	@media (width >= $xl) {
+		@content;
+	}
+}
+
+@mixin xxl {
+	@media (width >= $xxl) {
+		@content;
+	}
+}

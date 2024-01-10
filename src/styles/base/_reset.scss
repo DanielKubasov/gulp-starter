@@ -1,0 +1,26 @@
+:is(*, *::after, *::before) {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	font-style: italic;
+	background-repeat: no-repeat;
+	background-size: cover;
+	shape-margin: 1rem;
+}
+
+input,
+textarea,
+button,
+select {
+	font: inherit;
+}

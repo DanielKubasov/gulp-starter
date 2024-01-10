@@ -1,0 +1,23 @@
+// HEADER LAYOUT
+
+.header {
+	// VARIABLES
+
+	--_padding-header: 25px;
+
+	// BASE STYLES
+
+	position: relative;
+
+	padding-block: var(--_padding-header);
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		font-family: var(--font-family-accent);
+	}
+}
