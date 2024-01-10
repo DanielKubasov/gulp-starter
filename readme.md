@@ -4,7 +4,7 @@ use `npm i` to install all the dependencies
 
 ## Scripts
 
-`w3c` - runs the w3c html validator
+`w3c` - runs the w3c html validator \
 `start` - starts the project
 
 ## Required VS Code extensions
